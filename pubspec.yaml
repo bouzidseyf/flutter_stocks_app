@@ -1,0 +1,48 @@
+name: flutter_stocks_app
+description: A new Flutter stocks application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  charts_flutter: ^0.4.0
+
+  simple_design: ^1.0.3
+
+  material_design_icons_flutter: ^3.0.3289
+
+  flutter_custom_tabs: ^0.4.0
+
+  share: ^0.5.3
+
+  shared_preferences: ^0.4.3
+
+  cached_network_image: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  image_path_android: "assets/icon/icon.png"
+  adaptive_icon_background: "#FFFFFFFF"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: HK Grotesk
+      fonts:
+        - asset: fonts/HKGrotesk-Regular.ttf
+        - asset: fonts/HKGrotesk-SemiBold.ttf
+          weight: 700
+    - family: Graduate
+      fonts:
+        - asset: fonts/Graduate-Regular.ttf
